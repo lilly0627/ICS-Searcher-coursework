@@ -17,7 +17,7 @@ Setup:
 
 1.  Open indexer2.py, merge.py, and search.py, change the path to your local directory to DEV. (default path is ../DEV)
     
-2.  If not, create new folder INDEX, Merge2, ROOT. (mkdir INDEX, mkdir Merge2, mkdir ROOT)
+2.  Create new folder INDEX, Merge2, ROOT. (mkdir INDEX, mkdir Merge2, mkdir ROOT)
     
 3.  Build the index in "INDEX" directory, which takes 6 hours. After finishing building the index, there will be 28 indexer files in the "INDEX" directory.
     Command: python indexer2.py
