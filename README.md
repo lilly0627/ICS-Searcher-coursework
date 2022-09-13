@@ -30,10 +30,12 @@ Search:
 
 After setup, 
 
-    1.  Search using the terminal and command line: start running search.py, and enter your query after the "Query" prompt, enter "q" to quit the search
-        command: python search.py
+1.  Search using the terminal and command line: start running search.py, and enter your query after the "Query" prompt, enter "q" to quit the search
+    
+    Command: python search.py
         
-    2.  Search using the Web GUI: run app.py, open http://localhost:5000, and enter your query in the search box and click "Go". 
-        command: python app.py (ctrl + c to quit the app)
+2.  Search using the Web GUI: run app.py, open http://localhost:5000, and enter your query in the search box and click "Go". 
+    
+    Command: python app.py (ctrl + c to quit the app)
         
 
