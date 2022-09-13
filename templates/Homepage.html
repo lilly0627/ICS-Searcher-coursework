@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>news</title>
+</head>
+<body>
+    <p class="searchTitle">
+        Search Results
+    </p>
+    {% for url in data %}
+        <p style="color:dodgerblue">{{url}}</p>
+    {% endfor %}
+</body>
+</html>
+
+<style>
+.searchTitle{
+    background-color: azure;
+    height: 200px;
+    width: 100%;
+    line-height: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: gray;
+    margin:auto;
+}
+</style>

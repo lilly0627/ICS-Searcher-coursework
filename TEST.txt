@@ -1,0 +1,32 @@
+Good Query:
+ACM
+database
+University of California, Irvine
+machine learning
+department advisor
+Alex Thronton
+UCI
+Master of Software Engineering
+UCI ICS
+Shannon Alfaro
+Yosemite National Park
+
+
+Bad Query:
+department of computer science                          (Search time exceeded, fixed!)
+Computer Science                                        (Search time exceeded, fixed!)
+ics 31&32                                               (Unable to search for numbers, fixed!; No result shown, fixed!)
+92697 University of California, Irvine                  (Unable to search for numbers, fixed!)
+Donald Bren School of Inofrmation & Computer science    (Search time exceeded, fixed!)
+computer science abc123 !@# 6753                        (Unable to search for numbers, fixed!)
+deparment of computer science                           (Search time exceeded, fixed!)
+$%^& 222222 database                                    (Unable to search for numbers, fixed! No result shown, fixed!)
+number of student in department of informatics          (Search time exceeded, fixed!)
+WWDC 2021                                               (Unable to search for numbers, fixed!)
+iPhone 13Pro Max                                        (Search time exceeded, ; Results not accurate)
+
+
+Fixed both the effectiveness problem and the efficiency problem by assigning a score combined with tf-idf and html tag weight to each token index.
+Fixed the effectiveness problem by sorting the index score in descending order.
+Fixed the error of searching numbers by adding numeric index files in ROOT.
+
