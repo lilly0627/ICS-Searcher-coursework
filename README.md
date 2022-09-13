@@ -14,6 +14,7 @@ Installation:
 
 
 Setup:  
+
 1.  Open indexer2.py, merge.py, and search.py, change the path to your local directory to DEV. (default path is ../DEV)
     
 2.  If not, create new folder INDEX, Merge2, ROOT. (mkdir INDEX, mkdir Merge2, mkdir ROOT)
@@ -26,9 +27,12 @@ Setup:
 
 
 Search:
+
 After setup, 
+
     1.  Search using the terminal and command line: start running search.py, and enter your query after the "Query" prompt, enter "q" to quit the search
         command: python search.py
+        
     2.  Search using the Web GUI: run app.py, open http://localhost:5000, and enter your query in the search box and click "Go". 
         command: python app.py (ctrl + c to quit the app)
         
